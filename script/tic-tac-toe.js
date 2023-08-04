@@ -201,11 +201,31 @@ function drawLineWin(index1, index2, index3)
 {
     document.querySelectorAll('.js-cell-btn')
         .forEach((button)=>{
-            if (button.dataset.index === index1 || button.dataset.index === index2 || button.dataset.index === index3)
+            if (button.dataset.index === index1 )
             {
                 button.classList.add("check-img-animation");
             }
         });
+
+        setTimeout(() => {  
+            document.querySelectorAll('.js-cell-btn')
+            .forEach((button)=>{
+            if (button.dataset.index === index2 )
+            {
+                button.classList.add("check-img-animation");
+            }
+        });
+         }, 100);
+
+        setTimeout(() => {  
+            document.querySelectorAll('.js-cell-btn')
+            .forEach((button)=>{
+            if ( button.dataset.index === index3)
+            {
+                button.classList.add("check-img-animation");
+            }
+        });
+         }, 200);
 }
 
 function drawLineDraw()
@@ -215,3 +235,4 @@ function drawLineDraw()
             button.classList.add("check-img-animation-draw");
         });
 }
+
