@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+}
+
+.point {
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cell-btn {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border: solid 5px #1ed760;
+    border-radius: 5px;
+}
+
+.first-row-btn {
+    border-top: none;   
+}
+
+.last-row-btn {
+    border-bottom: none;   
+}
+
+.first-column-btn {
+    border-left: none;
+}
+
+.last-column-btn {
+    border-right: none;
+}
+
+.middle-column-btn {
+    border-left: none;
+    border-right: none;
+}
+
+.secondrow>button {
+    border-top: none;
+    border-bottom: none;
+}
+
+.cell-btn:hover {
+    background-color: #323232;
+}
+
+.check-img {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.check-img-animation
+{
+    box-shadow: inset 240px 0 0 0 beige;
+    background-color: transparent;
+    animation: in 1s ease-in-out;
+}
+
+.check-img-animation-draw {
+    box-shadow: inset 240px 0 0 0 #5dbeff;
+    background-color: transparent;
+    animation: in-draw 1s ease-in-out;
+}
+
+@keyframes in {
+    from {
+      box-shadow: inset 0 0 0 0 beige;
+      color: black;
+    }
+    to {
+      box-shadow: inset 240px 0 0 0 beige;
+      color: white;
+    }
+  }
+
+  @keyframes in-draw {
+    from {
+      box-shadow: inset 0 0 0 0 #5dbeff;
+      color: black;
+    }
+    to {
+      box-shadow: inset 240px 0 0 0 #5dbeff;
+      color: white;
+    }
+  }
+
+.play-again-btn {
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    height: 80px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 50px;
+    background-color: #1ed760;
+    color: #000;
+    border: none;
+    visibility: hidden;
+
+}
+
+.visibility {
+    visibility: visible;
+}
+
+.play-again-btn:hover {
+    background-color: #5dbeff;
+    color: #fff;
+}
+
+.replay-icon {
+    width: 15%;
+    height: 65%;
+    float: left;
+    margin-top: 14px;
+    margin-left: 60px;
+    margin-right: -50%;
+}
+
+.result-of-game {
+    margin-top: -30px;
+    color: #1ed760;
+    font-family: 'Courier New';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic tac toe</title>
+        <link rel="stylesheet" href="./styles/tic_tac_toe.css">
+        <link rel="icon" href="https://play-lh.googleusercontent.com/BjFeXzp6R-nEkt5U4v8cx99oYsp4c8rLj78_0Y6RLH1lk2v0cY64LEfPfByIchL0wDji">
+    </head>
+    <body>
+        <div class="main-content">
+            <img src="./styles/images/logo.png" class="logo">
+            <p class="point">You 0 - Bot 0</p>
+            <p class="result-of-game js-result-of-game">.</p>
+            <div class="firstrow">
+                <button class="first-row-btn first-column-btn cell-btn js-cell-btn" data-index="00"></button>
+                <button class="first-row-btn middle-column-btn cell-btn js-cell-btn" data-index="01"></button>
+                <button class="first-row-btn last-column-btn cell-btn js-cell-btn" data-index="02"></button>
+            </div>
+            <div class="secondrow">
+                <button class="first-column-btn cell-btn js-cell-btn" data-index="10"></button>
+                <button class="cell-btn middle-column-btn js-cell-btn" data-index="11"></button>
+                <button class="last-column-btn cell-btn js-cell-btn" data-index="12"></button>
+            </div>
+            <div class="thirstrow">
+                <button class="first-column-btn last-row-btn cell-btn js-cell-btn" data-index="20"></button>
+                <button class="last-row-btn middle-column-btn cell-btn js-cell-btn" data-index="21"></button>
+                <button class="last-column-btn last-row-btn cell-btn js-cell-btn" data-index="22"></button>
+            </div>
+            <button class="play-again-btn js-play-again-btn"><img src="./styles/images/replay.png" class="replay-icon"><p>Replay</p></button>
+        </div>
+        <script src="script/tic-tac-toe.js"></script>
+    </body>
+</html>
