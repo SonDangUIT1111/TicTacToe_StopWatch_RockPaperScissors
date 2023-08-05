@@ -1,0 +1,98 @@
+body
+{
+    font-family: Arial;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-container {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title
+{
+    width: auto;
+    height: 350px;
+}
+
+.btn {
+    background-color: transparent;
+    border: solid 5px white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(60,60,60);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-mini {
+    width: 40px;
+    height: 40px;
+}
+.score-board {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.attack {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4, 202 , 229);
+}
+
+
+.play-again-btn {
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 50px;
+    background-color: rgb(255, 82, 171);
+    color: #000;
+    border: none;
+    visibility: hidden;
+
+}
+
+.visibility {
+    visibility: visible;
+}
+
+.play-again-btn:hover {
+    background-color: rgb(252, 189, 0);
+    color: #000;
+}
+
+.replay-icon {
+    width: 15%;
+    height: 90%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-right: -50%;
+}
