@@ -123,3 +123,45 @@ body {
     text-align: center;
     border-radius:  0 40px 40px 0;
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 20px
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e4e4e4; 
+  border-radius: 20px
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1ed760; 
+  border-radius: 20px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.return {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #F9BB65;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.return:hover 
+{
+  background-color: #5dbeff;
+  color: #000;
+}

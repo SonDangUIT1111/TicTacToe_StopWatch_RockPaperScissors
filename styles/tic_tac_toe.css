@@ -23,7 +23,7 @@ body {
     background-color: transparent;
     height: 100px;
     width: 100px;
-    border: solid 5px #1ed760;
+    border: solid 10px #F9BB65;
     border-radius: 5px;
 }
 
@@ -138,4 +138,23 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+}
+
+.return {
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #F9BB65;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.return:hover 
+{
+    background-color: #5dbeff;
+    color: #000;
 }
